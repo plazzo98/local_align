@@ -10,3 +10,10 @@ num_results, verbose). All parameters are optional and have default values, exce
 The seed is used for reproducible results (if multiple 'arrows' are available from the same position in the scoring matix, only one arrow is chosen, randomly). The parameter 
 num_results allows to set the desired number of alignments to print in output, by default ordered in decreasing value for the final alignment score. Please provide all numerical 
 parameters as positive integers (the code will take care of handling these values in the correct way). Please provide all parameters in the format -parameter=value.
+
+Required packages:
+random
+argparse
+
+Please read the instruction before use, with:
+./plazzotta_giovanni_localalign.py -h 
