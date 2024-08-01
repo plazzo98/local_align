@@ -12,8 +12,8 @@ num_results allows to set the desired number of alignments to print in output, b
 parameters as positive integers (the code will take care of handling these values in the correct way). Please provide all parameters in the format -parameter=value.
 
 Required packages:
-random
-argparse
+- random
+- argparse
 
 Please read the instruction before use, with:
 ./plazzotta_giovanni_localalign.py -h 
